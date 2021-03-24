@@ -10,6 +10,7 @@ pipeline {
   environment {
     repoOwner = "${repoOwner}"
     credId = "${githubCredentialId}"
+    testVar = "hello"
   }
   stages('VueJS Test and Build')
   {
