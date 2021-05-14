@@ -3,7 +3,7 @@ version: 1
 type: pipeline-template
 name: Python App Multibranch Pipeline
 templateType: MULTIBRANCH
-description: Build, Test and Push Image for Standard Python Applications. 
+description: Build, Test and Push Image for Standard Python Apps. 
 parameters:
   - name: repoOwner
     type: string
