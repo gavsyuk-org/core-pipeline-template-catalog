@@ -1,4 +1,4 @@
-name: gitCatalog
+name: workshopCatalog
 displayName: CloudBees Days Workshop Template Catalog
 version: 1
 type: pipeline-template-catalog
