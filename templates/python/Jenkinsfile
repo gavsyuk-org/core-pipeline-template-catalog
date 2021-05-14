@@ -10,6 +10,7 @@ pipeline {
   environment {
     repoOwner = "${repoOwner}"
     credId = "${githubCredentialId}"
+    templateUpdate = "maybe"
   }
   stages('Python Test and Build')
   {
